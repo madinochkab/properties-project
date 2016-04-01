@@ -122,3 +122,4 @@ fabric.properties
 .project
 .settings
 bin/
+/target/
