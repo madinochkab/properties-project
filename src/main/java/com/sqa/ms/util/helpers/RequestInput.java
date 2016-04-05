@@ -27,6 +27,29 @@ import java.util.*;
 public class RequestInput {
 	private static Scanner scanner;
 
+	// Method should display 2 dimensional array nicely formatted on screen
+	public static void display2DArray(int[][] matrix) {
+		int rowArray = 4;
+		int colArray = 4;
+		Scanner scanner = new Scanner(System.in);
+		// for (int row = 0; row < matrix.length; row++) {
+		// for (int col = 0; col < matrix[row].length; col++) {
+		// System.out.println("enter the elementss for the Matrix");
+		// matrix[row][col] = scanner.nextInt();
+		//
+		// }
+		// System.out.println();
+	}
+
+	// Method should display array nicely formatted on screen
+	public static void displayArray(int[] array) {
+		for (int i = 0; i < array.length; i++) {
+			System.out.println(i + "\t" + array[i]);
+
+		}
+
+	}
+
 	// Get a char value from the user
 	/**
 	 * @param question
@@ -107,7 +130,7 @@ public class RequestInput {
 	}
 
 	/**
-
+	
 	 */
 
 	public static String getString(String question) {
