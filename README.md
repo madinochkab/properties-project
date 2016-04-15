@@ -1,6 +1,6 @@
-# first project -2
-test first project -2 day 4 project 
+# basic project
+using this project for all projects  
 
 this is readme for a test project.
-day 4 first project -2
+
 Madina Siebenthal
