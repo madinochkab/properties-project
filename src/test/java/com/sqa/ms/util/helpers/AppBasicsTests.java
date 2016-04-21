@@ -7,12 +7,17 @@
  *   Created: Apr 2, 2016
  *
  */
-
+//
 package com.sqa.ms.util.helpers;
 
-import java.util.*;
+//looks like double
+import java.util.Scanner;
 
-import org.junit.*;
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
 
 /**
  * AppBasicsTests //ADDD (description of class)
@@ -71,7 +76,8 @@ public class AppBasicsTests {
 
 	/**
 	 * Test method for
-	 * {@link com.sqa.ms.util.helpers.AppBasics#welcomeUserAndGetUsersName(java.lang.String)}.
+	 * {@link com.sqa.ms.util.helpers.AppBasics#welcomeUserAndGetUsersName(java.lang.String)}
+	 * .
 	 */
 	@Test
 	public void testWelcomeUser() {
